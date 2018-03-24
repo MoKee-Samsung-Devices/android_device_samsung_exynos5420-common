@@ -84,8 +84,8 @@ BOARD_USES_HWC_SERVICES := true
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += $(COMMON_PATH)/include
 
-# Hardware
-BOARD_HARDWARE_CLASS += hardware/samsung/lineagehw
+# MoKee Hardware
+BOARD_HARDWARE_CLASS += hardware/samsung/mkhw
 
 # Keymaster
 BOARD_USES_TRUST_KEYMASTER := true
